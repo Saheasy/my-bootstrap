@@ -23,13 +23,13 @@ export default function Home() {
                 <div class="card-header navbar-image">
                     <ul class="nav d-flex justify-content-evenly" data-bs-tabs="tabs">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="true" data-bs-toggle="tab" href="#dhcp">| About Me |</a>
+                            <a class="nav-link active" aria-current="true" data-bs-toggle="tab" href="#dhcp">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-bs-toggle="tab" href="#static">| Projects |</a>
+                            <a class="nav-link" data-bs-toggle="tab" href="#static">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="true" data-bs-toggle="tab" href="#dhcp">| Certifications |</a>
+                            <a class="nav-link active" aria-current="true" data-bs-toggle="tab" href="#dhcp">Accolades</a>
                         </li>
                     </ul>
                 </div>
