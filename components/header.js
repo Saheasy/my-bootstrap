@@ -5,7 +5,7 @@ import { faFacebook, faLinkedinIn, faGithubAlt } from '@fortawesome/free-brands-
 
 export default function Header() {
   return (
-    <nav class="navbar bg-light">
+    <nav class="navbar bg-light navbar-image">
         <div class="container-fluid py-0">
             <div>
                 <Link class="px-2" href="mailto:saheasy@gmail.com">

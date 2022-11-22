@@ -13,14 +13,14 @@ export default function Home() {
         </Head>
       <main>
           <Header />
-          <div class="px-4 py-5 my-0 text-center bg-secondary">
-            <h1 class="display-5 fw-bold">Spencer Sahu</h1>
+          <div class="px-4 py-5 my-0 text-center cover-image">
+            <h1 class="display-5 fw-bold text-white">Spencer Sahu</h1>
             <div class="col-lg-6 mx-auto">
-              <p class="lead mb-4">- Developer | Mentor | Enthusiast -</p>
+              <p class="lead mb-4 text-white">- Developer | Mentor | Enthusiast -</p>
             </div>
           </div>
-          <div class="card">
-                <div class="card-header">
+          <div class="card content-image">
+                <div class="card-header navbar-image">
                     <ul class="nav d-flex justify-content-evenly" data-bs-tabs="tabs">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="true" data-bs-toggle="tab" href="#dhcp">| About Me |</a>
@@ -31,12 +31,9 @@ export default function Home() {
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="true" data-bs-toggle="tab" href="#dhcp">| Certifications |</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-bs-toggle="tab" href="#static">| Volunteering |</a>
-                        </li>
                     </ul>
                 </div>
-                <form class="card-body tab-content">
+                <div class="card-body tab-content">
                     <div class="tab-pane active" id="dhcp">
                         <p class="card-text">Change DHCP Network settings.</p>
                     </div>
@@ -44,7 +41,7 @@ export default function Home() {
                         <p class=" card-text">Change Static Network settings.</p>
                     </div>
                     <button class="btn btn-primary" type="submit">Save</button>
-                </form>
+                </div>
            </div>
       </main>
     </>
