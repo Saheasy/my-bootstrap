@@ -23,22 +23,25 @@ export default function Home() {
                 <div class="card-header navbar-image">
                     <ul class="nav d-flex justify-content-evenly" data-bs-tabs="tabs">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="true" data-bs-toggle="tab" href="#dhcp">About</a>
+                            <a class="nav-link active" aria-current="true" data-bs-toggle="tab" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-bs-toggle="tab" href="#static">Projects</a>
+                            <a class="nav-link" data-bs-toggle="tab" href="#projects">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="true" data-bs-toggle="tab" href="#dhcp">Accolades</a>
+                            <a class="nav-link active" aria-current="true" data-bs-toggle="tab" href="#accolades">Accolades</a>
                         </li>
                     </ul>
                 </div>
                 <div class="card-body tab-content">
-                    <div class="tab-pane active" id="dhcp">
-                        <p class="card-text">Change DHCP Network settings.</p>
+                    <div class="tab-pane active" id="about">
+                        <p class="card-text">Spencer's About Page</p>
                     </div>
-                    <div class="tab-pane" id="static">
-                        <p class=" card-text">Change Static Network settings.</p>
+                    <div class="tab-pane" id="projects">
+                        <p class=" card-text">Spencer's Project Page</p>
+                    </div>
+                    <div class="tab-pane" id="accolades">
+                        <p class=" card-text">Spencer's Accolade Page</p>
                     </div>
                     <button class="btn btn-primary" type="submit">Save</button>
                 </div>
