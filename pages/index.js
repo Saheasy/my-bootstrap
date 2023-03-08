@@ -29,7 +29,7 @@ export default function Home() {
                             <a class="nav-link" data-bs-toggle="tab" href="#projects">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" data-bs-toggle="tab" href="#accolades">Accolades</a>
+                            <a class="nav-link" data-bs-toggle="tab" href="#accolades">Accolades</a>
                         </li>
                     </ul>
                 </div>
@@ -37,14 +37,13 @@ export default function Home() {
                     <div class="tab-pane active" id="about">
                         <p class="card-text">Spencer's About Page</p>
                     </div>
-                    
+
                     <div class="tab-pane" id="projects">
                         <p class=" card-text">Spencer's Project Page</p>
                     </div>
                     <div class="tab-pane" id="accolades">
                         <p class=" card-text">Spencer's Accolade Page</p>
                     </div>
-                    <button class="btn btn-primary" type="submit">Save</button>
                 </div>
            </div>
       </main>
