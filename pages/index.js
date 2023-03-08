@@ -34,15 +34,16 @@ export default function Home() {
                     </ul>
                 </div>
                 <div class="card-body tab-content">
-                    <div class="tab-pane active h-100" id="about">
+                    <div class="tab-pane active" id="about">
                         <p class="card-text">Spencer's About Page</p>
                     </div>
 
-                    <div class="tab-pane" styles="height:100%" id="projects">
+                    <div class="tab-pane" id="projects">
                         <p class=" card-text">Spencer's Project Page</p>
                     </div>
                     <div class="tab-pane" id="accolades">
                         <p class=" card-text">Spencer's Accolade Page</p>
+                        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="598b60e4-f1c3-4ec9-9275-95acf5f15964" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
                     </div>
                 </div>
            </div>
