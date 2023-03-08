@@ -33,7 +33,7 @@ export default function Home() {
                         </li>
                     </ul>
                 </div>
-                <div class="card-body tab-content" style="height:100%;">
+                <div class="card-body tab-content">
                     <div class="tab-pane active" id="about">
                         <p class="card-text">Spencer's About Page</p>
                     </div>
