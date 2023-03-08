@@ -4,6 +4,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Header from '../components/header'
 import coverImg from '../public/cover.jpeg'
+import Alert from 'react-bootstrap/Alert';
 
 export default function Home() {
   return (
