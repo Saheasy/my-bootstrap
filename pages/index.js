@@ -34,11 +34,11 @@ export default function Home() {
                     </ul>
                 </div>
                 <div class="card-body tab-content">
-                    <div class="tab-pane active" id="about">
+                    <div class="tab-pane active h-100" id="about">
                         <p class="card-text">Spencer's About Page</p>
                     </div>
 
-                    <div class="tab-pane" id="projects">
+                    <div class="tab-pane" styles="height:100%" id="projects">
                         <p class=" card-text">Spencer's Project Page</p>
                     </div>
                     <div class="tab-pane" id="accolades">
