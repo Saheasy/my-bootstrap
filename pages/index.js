@@ -4,6 +4,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Header from '../components/header'
 import coverImg from '../public/cover.jpeg'
+import Card from 'react-bootstrap/Card';
 
 export default function Home() {
   return (
@@ -43,7 +44,14 @@ export default function Home() {
                     </div>
                     <div class="tab-pane" id="accolades">
                         <p class=" card-text">Spencer's Accolade Page</p>
-                        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="598b60e4-f1c3-4ec9-9275-95acf5f15964" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                        <Card>
+                          <Card.Img variant="top" src="https://www.credly.com/badges/598b60e4-f1c3-4ec9-9275-95acf5f15964/public_url" />
+                          <Card.Body>
+                            <Card.Text>
+                              Earned to learn and use AWS services in more development projects. 
+                            </Card.Text>
+                          </Card.Body>
+                        </Card>
                     </div>
                 </div>
            </div>
