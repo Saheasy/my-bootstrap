@@ -18,8 +18,8 @@ function KitchenSinkExample() {
         <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
       </ListGroup>
       <Card.Body>
-        <Card.Link href="#">Card Link</Card.Link>
-        <Card.Link href="#">Another Link</Card.Link>
+        <Card.Link href="https://www.credly.com/badges/598b60e4-f1c3-4ec9-9275-95acf5f15964/public_url">Card Link</Card.Link>
+        <Card.Link href="https://aws.amazon.com/certification/certified-cloud-practitioner/">Another Link</Card.Link>
       </Card.Body>
     </Card>
   );
