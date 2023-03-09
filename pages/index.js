@@ -4,7 +4,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Header from '../components/header'
 import coverImg from '../public/cover.jpeg'
-import Alert from 'react-bootstrap/Alert';
+import KitchenSinkExample from '../components/KitchenSink'
 
 export default function Home() {
   return (
@@ -37,6 +37,7 @@ export default function Home() {
                 <div class="card-body tab-content">
                     <div class="tab-pane active" id="about">
                         <p class="card-text">Spencer's About Page</p>
+                        <KitchenSinkExample></KitchenSinkExample>
                     </div>
 
                     <div class="tab-pane" id="projects">
