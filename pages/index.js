@@ -45,6 +45,12 @@ export default function Home() {
                     </div>
                     <div class="tab-pane" id="accolades">
                         <p class=" card-text">Spencer's Accolade Page</p>
+                        <div class="d-flex">
+                          <img src="https://docs.google.com/document/d/11rWWyKzTgR8i6FLSjSlHNkED95yc4BUIoEROFwS-w7k/edit?usp=sharing"></img>
+                          <img src=""></img>
+                          <img src=""></img>
+                          <img src=""></img>
+                        </div>
                     </div>
                 </div>
            </div>
