@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 import Header from '../components/header'
 import coverImg from '../public/cover.jpeg'
 import KitchenSinkExample from '../components/KitchenSink'
+import credlyCard from '../components/credlyCard'
 
 export default function Home() {
   return (
@@ -42,11 +43,12 @@ export default function Home() {
 
                     <div class="tab-pane" id="projects">
                         <p class=" card-text">Spencer's Project Page</p>
+                        <credlyCard></credlyCard>
                     </div>
                     <div class="tab-pane" id="accolades">
                         <p class=" card-text">Spencer's Accolade Page</p>
                         <div class="d-flex">
-                          <img src="https://docs.google.com/document/d/11rWWyKzTgR8i6FLSjSlHNkED95yc4BUIoEROFwS-w7k/edit?usp=sharing"></img>
+                          <img src="https://www.credly.com/badges/598b60e4-f1c3-4ec9-9275-95acf5f15964/public_url"></img>
                           <img src=""></img>
                           <img src=""></img>
                           <img src=""></img>
