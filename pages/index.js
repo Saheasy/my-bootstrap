@@ -49,9 +49,7 @@ export default function Home() {
                         <p class=" card-text">Spencer's Accolade Page</p>
                         <div class="d-flex">
                           <img src="https://www.credly.com/badges/598b60e4-f1c3-4ec9-9275-95acf5f15964/public_url"></img>
-                          <img src=""></img>
-                          <img src=""></img>
-                          <img src=""></img>
+                          <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="598b60e4-f1c3-4ec9-9275-95acf5f15964" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
                         </div>
                     </div>
                 </div>
