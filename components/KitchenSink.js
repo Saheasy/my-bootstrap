@@ -4,7 +4,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 function KitchenSinkExample() {
   return (
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180?text=Imagehttps://www.credly.com/badges/598b60e4-f1c3-4ec9-9275-95acf5f15964/public_url cap" />
+      <Card.Img variant="top" src="holder.js/100px180?text=Imagehttps://www.credly.com/badges/598b60e4-f1c3-4ec9-9275-95acf5f15964/public_url" />
       <Card.Body>
         <Card.Title>AWS Cloud Practitioner</Card.Title>
         <Card.Text>
