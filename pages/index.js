@@ -43,7 +43,7 @@ export default function Home() {
 
                     <div class="tab-pane" id="projects">
                         <p class=" card-text">Spencer's Project Page</p>
-                        <credlyCard></credlyCard>
+                        <KitchenSinkExample></KitchenSinkExample>
                     </div>
                     <div class="tab-pane" id="accolades">
                         <p class=" card-text">Spencer's Accolade Page</p>
