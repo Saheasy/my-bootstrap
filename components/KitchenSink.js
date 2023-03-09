@@ -6,18 +6,10 @@ function KitchenSinkExample() {
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>AWS Cloud Practitioner</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Gained this certfication to help learn to use AWS service to create and deploy cloud applications.
         </Card.Text>
-      </Card.Body>
-      <ListGroup className="list-group-flush">
-        <ListGroup.Item>Cras justo odio</ListGroup.Item>
-        <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-        <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
-      </ListGroup>
-      <Card.Body>
         <Card.Link href="https://www.credly.com/badges/598b60e4-f1c3-4ec9-9275-95acf5f15964/public_url">Card Link</Card.Link>
         <Card.Link href="https://aws.amazon.com/certification/certified-cloud-practitioner/">Another Link</Card.Link>
       </Card.Body>
